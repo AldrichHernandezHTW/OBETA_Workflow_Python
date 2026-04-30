@@ -1,0 +1,47 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+etl_run.log
+
+# Backups generated during patching
+*.bak
+*.bak_*
+obeta_python_batched_etl.py.bak*
+*.backup
+
+# Local database / temporary files
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+temp/
+
+# Large/raw data files
+*.csv
+*.zip
+*.xlsx
+*.xls
+
+# Keep documentation and requirements
+!README*.md
+!requirements*.txt
